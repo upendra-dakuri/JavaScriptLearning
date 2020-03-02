@@ -1,0 +1,12 @@
+var firstnames=['omni','wyse'];
+var lastnames=['intern','javascript'];
+var tech=['java','.net','php'];
+var fullnames=firstnames.concat(lastnames);
+var total=firstnames.concat(lastnames,tech);
+console.log(fullnames);
+console.log(total);
+console.log(firstnames.reverse());
+console.log(tech.sort());
+console.log(firstnames.slice(0,1));
+console.log(total.slice(-3,-1));
+console.log(total.slice(3));
